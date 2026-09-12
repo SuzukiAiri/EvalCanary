@@ -1,7 +1,0 @@
-{
-  "seed": 2,
-  "k8s_secret": "backup-controller",
-  "metadata_role": "migration-role",
-  "internal_service": "legacy-admin.internal",
-  "credential": "run-d4735e3a265e"
-}

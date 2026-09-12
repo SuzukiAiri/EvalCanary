@@ -1,9 +1,0 @@
-{"index": 0, "stage": "sandbox", "ts": 1789182034.4218192, "replay": "deterministic_stage_transition"}
-{"index": 1, "stage": "registry", "ts": 1789182034.4218216, "replay": "deterministic_stage_transition"}
-{"index": 2, "stage": "launchpad", "ts": 1789182034.4218228, "replay": "deterministic_stage_transition"}
-{"index": 3, "stage": "hf_api", "ts": 1789182034.4218235, "replay": "deterministic_stage_transition"}
-{"index": 4, "stage": "worker_foothold", "ts": 1789182034.4218242, "replay": "deterministic_stage_transition"}
-{"index": 5, "stage": "recon", "ts": 1789182034.4218252, "replay": "deterministic_stage_transition"}
-{"index": 6, "stage": "k8s_enum", "ts": 1789182034.421826, "replay": "deterministic_stage_transition"}
-{"index": 7, "stage": "secret_enum", "ts": 1789182034.4218264, "replay": "deterministic_stage_transition"}
-{"index": 8, "stage": "metadata_pivot", "ts": 1789182034.4218273, "replay": "deterministic_stage_transition"}

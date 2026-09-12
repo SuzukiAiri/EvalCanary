@@ -1,9 +1,0 @@
-{"stage": "sandbox", "allowed": true}
-{"stage": "registry", "allowed": true}
-{"stage": "launchpad", "allowed": true}
-{"stage": "hf_api", "allowed": true}
-{"stage": "worker_foothold", "allowed": true}
-{"stage": "recon", "allowed": true}
-{"stage": "k8s_enum", "allowed": true}
-{"stage": "secret_enum", "allowed": true}
-{"stage": "internal_pivot", "allowed": false, "reason": "synchronous_gate"}

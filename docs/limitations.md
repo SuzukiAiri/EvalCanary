@@ -1,10 +1,10 @@
 # Limitations
 
-- The HF experiment begins at an assumed worker foothold. The runnable upstream lab is integrated into the Docker topology, but measured requests use overlay services; no full historical exploit chain or autonomous attacker is demonstrated.
-- The replay exhaustively enumerates the secret catalog. Randomizing names/order tests this strategy's interaction with placement; five seeds do not estimate arbitrary agent coverage or statistical reliability.
-- The benign workload is health-only. It is not a production application test or a false-positive rate study.
-- Synchronous containment is tested with a single serial replay process. Concurrent requests, delegated agents and compromised services require separate evaluation.
-- Post-trigger outbound counts successful responses in instrumented local service logs, not every packet on every interface. Internal Docker networks and removal of all replay network attachments constrain the tested boundary.
-- Evidence uses SHA-256 and host-generated logs; a malicious host can forge/re-hash them. No signatures, remote trusted collector or hardware attestation.
-- The existing 17,600-record synthetic trace contains two phases and one generator-selected candidate event. It is not raw HF telemetry, not a measured Level 3 trigger, and is not a complete phase-faithful reconstruction. Whole-trace ratio is distinct from prefix compression.
-- CHeaT results remain a small lure-exposure proof-of-transfer in summaries, separate from the deterministic HTTP containment experiment.
+- The HF environment is a local educational reconstruction, not an exact reproduction of Hugging Face production infrastructure.
+- The worker-to-cluster hop is an explicit transition adapter; it is documented separately from upstream mechanisms.
+- Autonomous validation begins from a bounded worker foothold with general local tools. It does not measure zero-context exploitation or complete autonomous reproduction of the historical incident.
+- The autonomous campaign uses one primary strong model and 10 runs. It is an evaluation sample, not a general model reliability estimate.
+- The benign workload is a sanity control, not a false-positive-rate estimate.
+- Containment is tested with a single serial worker and host-side breaker. Concurrent workers, delegated agents, and independently spawned processes require separate evaluation.
+- Evidence consists of host-generated logs and SHA-256 manifests; it is not trusted hardware attestation or an independently trusted telemetry collector.
+- Synthetic benchmark traces and CHeaT observations are educational supporting material, not production telemetry or universal safety guarantees.

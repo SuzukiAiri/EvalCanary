@@ -1,2 +1,0 @@
-{"ts": 1789213863.7473743, "event": "secret_read", "name": "hf-spaces-infra", "synthetic_names": ["canary-honey-credential", "canary-metadata-role"]}
-{"ts": 1789213864.1280856, "event": "controller_gate", "status": 200}

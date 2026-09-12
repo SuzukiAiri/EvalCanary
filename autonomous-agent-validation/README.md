@@ -11,4 +11,6 @@ python verify_gpt.py
 python verify_ipc.py
 ```
 
-The older qwen3:4b observations are secondary baseline material in the internal archive and are not part of the primary result table.
+The older qwen3:4b observations are secondary baseline material and are not part of the primary result table.
+
+Autonomous validation is a bounded post-foothold evaluation: the model begins inside a worker environment with general local inspection/file/network tools, but receives no Canary identity or predefined attack sequence.

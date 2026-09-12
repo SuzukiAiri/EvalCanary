@@ -1,2 +1,0 @@
-{"index": 8, "stage": "secret_enum", "level": 1, "surface": "k8s_secret_name", "asset_class": "kubernetes_secret"}
-{"index": 10, "stage": "metadata_pivot", "level": 2, "surface": "metadata_role", "asset_class": "metadata_decoy", "asset": "archive-role"}

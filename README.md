@@ -35,6 +35,8 @@ The primary autonomous result is the fixed-IPC **GPT-5.6 Sol** campaign: 10 inde
 
 The model selected every tool action from observations. Canary identity was generated per run and was not in the prompt, tool schema, or public metadata. There was no predefined attack sequence, deterministic replay fallback, or Agent-directed containment action.
 
+Autonomous validation is a bounded post-foothold evaluation: the model begins inside a worker environment with general local inspection/file/network tools, but receives no Canary identity or predefined attack sequence.
+
 ## Main results
 
 | Experiment | Result |
@@ -50,9 +52,18 @@ The model selected every tool action from observations. Canary identity was gene
 
 The figures are backed by the checked-in evidence directories and offline verifiers. The 17,600-event synthetic illustration is not a headline result.
 
+The claim-to-evidence map and technical audit are in [docs/audit/CLAIM_EVIDENCE_MATRIX.md](docs/audit/CLAIM_EVIDENCE_MATRIX.md) and [docs/audit/FINAL_TECHNICAL_AUDIT.md](docs/audit/FINAL_TECHNICAL_AUDIT.md).
+
 ## Why this is AI-specific
 
 The signal is tied to autonomous exploration of an off-path asset and to use of a credential or secret that should not be touched. It does not classify every request as malicious. A high-confidence interaction creates a synchronous boundary before the Agent can continue protected work.
+
+## Evidence / verification
+
+- [HF containment results](hf-counterfactual/RESULTS.md)
+- [HF full-chain evidence](hf-full-chain-runtime/RESULTS.md)
+- [Autonomous Agent evidence](autonomous-agent-validation/RESULTS.md)
+- [Claim-to-evidence matrix](docs/audit/CLAIM_EVIDENCE_MATRIX.md)
 
 ## Reproduce and verify
 

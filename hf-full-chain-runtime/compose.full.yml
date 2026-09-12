@@ -1,24 +1,24 @@
 services:
   k8s-api:
     build:
-      context: D:/Hackathon/hf-full-chain-runtime/k8s-instrumented
+      context: ./k8s-instrumented
     volumes:
-      - D:/Hackathon/hf-counterfactual/upstream/ai-escape-room/hf-internal/k8s-api/secrets.json:/opt/secrets.json:ro
-      - D:/Hackathon/hf-counterfactual/upstream/ai-escape-room/hf-internal/k8s-api/sa-token:/run/secrets/sa-token:ro
+      - ../hf-counterfactual/upstream/ai-escape-room/hf-internal/k8s-api/secrets.json:/opt/secrets.json:ro
+      - ../hf-counterfactual/upstream/ai-escape-room/hf-internal/k8s-api/sa-token:/run/secrets/sa-token:ro
     environment:
       K8S_LOG: /tmp/k8s-runtime.jsonl
       CANARY_ENABLED: ${CANARY_ENABLED:-0}
       CONTROLLER_URL: ${CONTROLLER_URL:-http://full-chain-controller:8090/trigger}
   stage3-transition:
-    build: D:/Hackathon/hf-full-chain-runtime/stage3-transition
+    build: ./stage3-transition
     networks: [internet-net, hf-prod-net, hf-cluster-net]
     expose: ['8080']
   full-chain-controller:
-    build: D:/Hackathon/hf-full-chain-runtime/containment
+    build: ./containment
     networks: [hf-cluster-net]
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-      - D:/Hackathon/hf-full-chain-runtime/evidence/FULL-2:/evidence
+      - ./evidence/FULL-2:/evidence
     environment:
       LOG: /evidence/controller.jsonl
     expose: ['8090']

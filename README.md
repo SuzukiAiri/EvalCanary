@@ -57,8 +57,7 @@ The signal is tied to autonomous exploration of an off-path asset and to use of 
 ## Reproduce and verify
 
 ```powershell
-# From the repository root after cloning:
-git clone <repository-url>
+git clone https://github.com/SuzukiAiri/EvalCanary.git
 cd EvalCanary
 python hf-counterfactual\verify_runtime.py hf-counterfactual\evidence\final\C2-seed-1\evidence
 python hf-full-chain-runtime\verify_full_chain.py

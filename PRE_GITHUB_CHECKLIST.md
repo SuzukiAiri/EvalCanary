@@ -20,10 +20,14 @@
 
 [PASS] reproducibility commands — all verification commands in README reference existing scripts and bundles.
 
-[PASS] repository ready for GitHub — local release checks complete; Git initialization and publication are recorded below.
+[PASS] repository ready for GitHub — local release checks and publication complete.
 
 [PASS] Git commit — `bf22ee9` (`Release EvalCanary containment prototype`), 678 tracked files.
 
-[BLOCKED] GitHub CLI — `gh` is not installed on this host; no remote repository or push was attempted.
+[PASS] GitHub push — public `main` branch pushed to `https://github.com/SuzukiAiri/EvalCanary`.
 
-# LOCAL RELEASE READY
+[PASS] public README links — README, RESULTS, licenses, `.env.example`, and evidence paths are present remotely.
+
+[PASS] remote secret check — `API.txt` and internal archive are absent from the public repository.
+
+# PUBLISHED / READY FOR SUBMISSION

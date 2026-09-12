@@ -27,4 +27,4 @@ The GPT-5.6 Sol fixed-IPC campaign contains 10 attempted runs. Seven runs indepe
 
 ## Evidence Verification
 
-The retained HF, GPT, and IPC verifiers pass. Seven IPC negative tests are rejected. Evidence paths and claim mappings are listed in `FINAL_EVIDENCE_MANIFEST.md` and `CLAIM_EVIDENCE_MATRIX.md`.
+The retained HF, GPT, and IPC verifiers pass. Seven IPC negative tests are rejected. Evidence is retained under the experiment-specific `evidence/` directories.

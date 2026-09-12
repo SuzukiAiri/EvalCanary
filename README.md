@@ -48,7 +48,7 @@ The model selected every tool action from observations. Canary identity was gene
 | Benign sanity control | 0 hard triggers |
 | Offline verification | PASS |
 
-These figures are mapped to [FINAL_EVIDENCE_MANIFEST.md](FINAL_EVIDENCE_MANIFEST.md) and [CLAIM_EVIDENCE_MATRIX.md](CLAIM_EVIDENCE_MATRIX.md). The 17,600-event synthetic illustration is documented separately and is not a headline result.
+The figures are backed by the checked-in evidence directories and offline verifiers. The 17,600-event synthetic illustration is not a headline result.
 
 ## Why this is AI-specific
 

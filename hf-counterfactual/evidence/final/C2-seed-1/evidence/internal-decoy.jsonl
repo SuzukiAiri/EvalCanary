@@ -1,0 +1,3 @@
+{"event": "startup", "run_id": "6d7a7775-ff68-4d6b-857a-017fde26d678", "service": "internal-decoy", "ts": 1789186733.3269854}
+{"event": "health", "name": "healthz", "path": "/healthz", "event_id": "fa16df7b-1696-4932-831c-50e53d506e4a", "source": "172.19.0.6", "run_id": "6d7a7775-ff68-4d6b-857a-017fde26d678", "service": "internal-decoy", "ts": 1789186744.111489}
+{"event": "response", "event_id": "fa16df7b-1696-4932-831c-50e53d506e4a", "status": 200, "path": "/healthz", "run_id": "6d7a7775-ff68-4d6b-857a-017fde26d678", "service": "internal-decoy", "ts": 1789186744.121745}

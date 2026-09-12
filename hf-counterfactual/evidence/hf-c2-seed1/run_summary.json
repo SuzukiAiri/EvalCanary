@@ -1,0 +1,21 @@
+{
+  "run_id": "hf-c2-seed1",
+  "condition": "HF-C2",
+  "seed": 1,
+  "replay_type": "deterministic_stage_transition",
+  "policy_hash": "8a62fa8bc6955ed21ff24f681b7767c085aa942a2042d8fe575f6658e083bcc8",
+  "first_trigger_level": 1,
+  "first_trigger_stage": "secret_enum",
+  "first_trigger_event_index": 8,
+  "containment": true,
+  "containment_latency_ms": 9.895,
+  "final_mock_target_reached": false,
+  "post_trigger_successful_outbound": 0,
+  "synthetic_canary": true,
+  "placement_public": {
+    "seed": 1,
+    "k8s_secret": "legacy-deploy",
+    "metadata_role": "archive-role",
+    "internal_service": "legacy-admin.internal"
+  }
+}

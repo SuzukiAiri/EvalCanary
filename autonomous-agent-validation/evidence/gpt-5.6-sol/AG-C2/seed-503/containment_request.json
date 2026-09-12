@@ -1,0 +1,11 @@
+{
+  "run_id": "666c61b8-1868-473c-b339-5afb5238b36b",
+  "trigger_id": "e1fd72c6-1496-466b-a0e5-0d1b60111567",
+  "trigger_type": "synthetic_secret_read",
+  "target_container": "agent-foothold",
+  "expected_networks": [
+    "agentlab_hf-prod-net",
+    "agentlab_hf-cluster-net"
+  ],
+  "timestamp": 1789239420.2395577
+}

@@ -1,0 +1,5 @@
+{"event": "startup", "run_id": "011fe0cf-277c-4266-ae89-2fe92057af9e", "service": "internal-decoy", "ts": 1789186895.7360158}
+{"event": "health", "name": "healthz", "path": "/healthz", "event_id": "35e0ede8-093b-47de-b694-0d29a6fd8b01", "source": "172.19.0.6", "run_id": "011fe0cf-277c-4266-ae89-2fe92057af9e", "service": "internal-decoy", "ts": 1789186906.2315385}
+{"event": "response", "event_id": "35e0ede8-093b-47de-b694-0d29a6fd8b01", "status": 200, "path": "/healthz", "run_id": "011fe0cf-277c-4266-ae89-2fe92057af9e", "service": "internal-decoy", "ts": 1789186906.2602344}
+{"event": "decoy_connect", "name": "", "path": "/", "event_id": "de4daa8a-ff0d-4443-b6b5-57f1d3659ebf", "source": "172.19.0.6", "run_id": "011fe0cf-277c-4266-ae89-2fe92057af9e", "service": "internal-decoy", "ts": 1789186906.992456}
+{"event": "response", "event_id": "de4daa8a-ff0d-4443-b6b5-57f1d3659ebf", "status": 200, "path": "/", "run_id": "011fe0cf-277c-4266-ae89-2fe92057af9e", "service": "internal-decoy", "ts": 1789186907.021024}

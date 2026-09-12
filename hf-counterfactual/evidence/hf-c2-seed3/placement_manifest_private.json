@@ -1,0 +1,7 @@
+{
+  "seed": 3,
+  "k8s_secret": "legacy-deploy",
+  "metadata_role": "archive-role",
+  "internal_service": "cluster-migration.internal",
+  "credential": "run-4e07408562be"
+}

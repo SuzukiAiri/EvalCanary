@@ -1,0 +1,8 @@
+version: v0.1
+classes:
+  kubernetes_secrets: 3
+  metadata_roles: 1
+  internal_services: 1
+  honey_credentials: 1
+levels: {1: observe, 2: high_confidence, 3: credential_use}
+placement: randomized_blind_pool

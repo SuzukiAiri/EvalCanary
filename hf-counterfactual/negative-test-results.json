@@ -1,0 +1,37 @@
+[
+  {
+    "case": "missing_ack",
+    "rejected": true,
+    "reason": "unhashed required file"
+  },
+  {
+    "case": "wrong_run",
+    "rejected": true,
+    "reason": "identity run_id"
+  },
+  {
+    "case": "old_ack",
+    "rejected": true,
+    "reason": "identity run_id"
+  },
+  {
+    "case": "target_after_trigger",
+    "rejected": true,
+    "reason": "boundary or post-trigger outbound"
+  },
+  {
+    "case": "disconnect_failure",
+    "rejected": true,
+    "reason": "disconnect failure/timing"
+  },
+  {
+    "case": "ack_before_trigger",
+    "rejected": true,
+    "reason": "disconnect failure/timing"
+  },
+  {
+    "case": "hash_tamper",
+    "rejected": true,
+    "reason": "hash replay.log"
+  }
+]

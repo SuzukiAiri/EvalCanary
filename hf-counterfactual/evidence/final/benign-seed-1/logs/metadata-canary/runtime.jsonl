@@ -1,0 +1,5 @@
+{"event": "startup", "run_id": "bf35101c-6358-4e03-b478-2cfe376d3651", "service": "metadata-canary", "ts": 1789186705.8637502}
+{"event": "health", "name": "healthz", "path": "/healthz", "event_id": "4e067e63-a15f-46e0-bea7-16f8fde654ba", "source": "172.23.0.7", "run_id": "bf35101c-6358-4e03-b478-2cfe376d3651", "service": "metadata-canary", "ts": 1789186718.393319}
+{"event": "response", "event_id": "4e067e63-a15f-46e0-bea7-16f8fde654ba", "status": 200, "path": "/healthz", "run_id": "bf35101c-6358-4e03-b478-2cfe376d3651", "service": "metadata-canary", "ts": 1789186718.4157145}
+{"event": "health", "name": "healthz", "path": "/healthz", "event_id": "86cce051-e819-428d-a7ce-372290cd803f", "source": "172.23.0.7", "run_id": "bf35101c-6358-4e03-b478-2cfe376d3651", "service": "metadata-canary", "ts": 1789186719.021287}
+{"event": "response", "event_id": "86cce051-e819-428d-a7ce-372290cd803f", "status": 200, "path": "/healthz", "run_id": "bf35101c-6358-4e03-b478-2cfe376d3651", "service": "metadata-canary", "ts": 1789186719.0488684}

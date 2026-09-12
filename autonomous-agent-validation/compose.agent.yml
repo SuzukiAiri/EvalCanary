@@ -1,0 +1,28 @@
+services:
+  eval-sandbox:
+    container_name: agent-foothold
+    build: D:/Hackathon/autonomous-agent-validation/agent-foothold
+    networks: [hf-prod-net, hf-cluster-net]
+    volumes: []
+    command: ["bash","-c","sleep infinity"]
+  k8s-api:
+    build:
+      context: D:/Hackathon/autonomous-agent-validation/k8s-agent
+      dockerfile: Dockerfile
+    environment:
+      CANARY_ENABLED: ${CANARY_ENABLED:-0}
+      ENFORCE: ${ENFORCE:-0}
+      SYNTHETIC_SECRETS: ${SYNTHETIC_SECRETS:-{}}
+      CONTROLLER_URL: ${CONTROLLER_URL:-http://containment-controller:8080/trigger}
+      AGENT_RUN_ID: ${AGENT_RUN_ID:-}
+      K8S_LOG: /tmp/k8s-agent.jsonl
+    extra_hosts: ["host.docker.internal:172.30.222.220"]
+  containment-controller:
+    build: D:/Hackathon/autonomous-agent-validation/containment-controller
+    environment:
+      IPC_ROOT: /runtime/ipc
+      GATE_TIMEOUT: "8"
+      TARGET_CONTAINER: agent-foothold
+    volumes:
+      - D:/Hackathon/autonomous-agent-validation/runtime/ipc:/runtime/ipc
+    networks: [hf-cluster-net]

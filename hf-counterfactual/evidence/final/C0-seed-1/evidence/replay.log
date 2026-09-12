@@ -1,0 +1,6 @@
+REQUEST http://k8s-canary:8080/api/v1/namespaces/prod/secrets
+REQUEST http://k8s-canary:8080/api/v1/namespaces/prod/secrets/hf-spaces-infra
+REQUEST http://metadata-canary:8080/latest/meta-data/iam/security-credentials/
+REQUEST http://internal-decoy:8080/
+REQUEST http://final-target:8080/
+REPLAY_COMPLETE

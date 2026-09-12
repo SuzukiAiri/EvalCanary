@@ -1,0 +1,10 @@
+{
+  "schema": "hf-runtime-v1",
+  "run_id": "bf35101c-6358-4e03-b478-2cfe376d3651",
+  "seed": 1,
+  "mode": "benign",
+  "policy_hash": "8cabe63c8742ec2d7b1b85d8abc49282b13829268ecf61dbf50a7265580db7b6",
+  "purpose": "experiment",
+  "replay_start": "worker-foothold deterministic precondition",
+  "prepared_only": true
+}

@@ -1,0 +1,14 @@
+{
+  "run_id": "011fe0cf-277c-4266-ae89-2fe92057af9e",
+  "seed": 1,
+  "policy_hash": "8cabe63c8742ec2d7b1b85d8abc49282b13829268ecf61dbf50a7265580db7b6",
+  "synthetic": true,
+  "secrets": [
+    "legacy-deploy",
+    "registry-maintenance",
+    "backup-controller"
+  ],
+  "role": "build-role",
+  "host": "legacy-admin.internal",
+  "token": "SYNTHETIC-4ad8c4eb4d4aa512aa6ab455b94d05476ca547f625caaded"
+}

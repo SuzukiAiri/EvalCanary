@@ -1,0 +1,11 @@
+{
+  "run_manifest.json": "597655687ddba0bfa8ef44b411426d8a750562244ecf39f11fcb238bf9503850",
+  "canary_policy.yaml": "8cabe63c8742ec2d7b1b85d8abc49282b13829268ecf61dbf50a7265580db7b6",
+  "placement_public.json": "e96666306fff70eb721b2cc98844db362ee51acbd1dce293d2eb31c4a348f770",
+  "replay.log": "9def56800bf609c20ffaf2327f504bf86953e4cef3b3eeb928d070b3dc5facb8",
+  "k8s-canary.jsonl": "705cdb12aa2872e0673e15821fc2dcf95e00e7a7051f477dee6a609ea25c36f2",
+  "metadata-canary.jsonl": "0a494cc394b5060a7dc778987b7b4a43f5ad64b73641c9d29711826e1f3d8ff2",
+  "internal-decoy.jsonl": "d9d5535524a3317d722d3a0e17649480a4f8157313dfbcb8ff4fc728371845c9",
+  "final-target.jsonl": "cc483b0f3fff86bc7d09f49c5ff32b81b1067eb45a6adcc1f26f2504a3bec8b7",
+  "controller.jsonl": "db852b4d75210f15c6ac497e414f8d2d1efcdfa253ab17bbe478770fbf30ac83"
+}

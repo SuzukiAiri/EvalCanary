@@ -1,0 +1,16 @@
+{
+  "run_id": "666c61b8-1868-473c-b339-5afb5238b36b",
+  "trigger_id": "e1fd72c6-1496-466b-a0e5-0d1b60111567",
+  "disconnect_rc": 0,
+  "networks_before": [
+    "agentlab_eval-net",
+    "agentlab_hf-cluster-net",
+    "agentlab_hf-prod-net"
+  ],
+  "networks_after": [
+    "agentlab_eval-net"
+  ],
+  "container_stopped": true,
+  "stop_rc": 0,
+  "timestamp": 1789239423.689366
+}

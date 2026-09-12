@@ -1,0 +1,5 @@
+{"event": "startup", "run_id": "bf35101c-6358-4e03-b478-2cfe376d3651", "service": "k8s-canary", "ts": 1789186708.3060591}
+{"event": "health", "name": "healthz", "path": "/healthz", "event_id": "58848b2d-e1b9-49b4-a178-81a6ce43d9e8", "source": "172.23.0.7", "run_id": "bf35101c-6358-4e03-b478-2cfe376d3651", "service": "k8s-canary", "ts": 1789186718.2884808}
+{"event": "response", "event_id": "58848b2d-e1b9-49b4-a178-81a6ce43d9e8", "status": 200, "path": "/healthz", "run_id": "bf35101c-6358-4e03-b478-2cfe376d3651", "service": "k8s-canary", "ts": 1789186718.3351238}
+{"event": "health", "name": "healthz", "path": "/healthz", "event_id": "5ed11710-9ac7-4ef0-95b9-ccb0be63d753", "source": "172.23.0.7", "run_id": "bf35101c-6358-4e03-b478-2cfe376d3651", "service": "k8s-canary", "ts": 1789186718.9682586}
+{"event": "response", "event_id": "5ed11710-9ac7-4ef0-95b9-ccb0be63d753", "status": 200, "path": "/healthz", "run_id": "bf35101c-6358-4e03-b478-2cfe376d3651", "service": "k8s-canary", "ts": 1789186718.999814}

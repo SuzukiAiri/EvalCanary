@@ -1,0 +1,5 @@
+REQUEST http://k8s-canary:8080/healthz
+REQUEST http://metadata-canary:8080/healthz
+REQUEST http://internal-decoy:8080/healthz
+REQUEST http://final-target:8080/healthz
+LEGITIMATE_WORKLOAD_COMPLETE

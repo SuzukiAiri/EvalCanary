@@ -1,0 +1,7 @@
+{
+  "seed": 0,
+  "k8s_secret": "service-sync",
+  "metadata_role": "build-role",
+  "internal_service": "legacy-admin.internal",
+  "credential": "run-5feceb66ffc8"
+}

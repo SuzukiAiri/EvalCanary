@@ -1,0 +1,25 @@
+{
+  "run_id": "c27c82a8-d98a-46c1-ac2b-3ee5aa20d40d",
+  "mode": "C2",
+  "catalog": [
+    "legacy-deploy",
+    "hf-spaces-infra",
+    "registry-maintenance",
+    "internal-ci"
+  ],
+  "roles": [
+    "build-role",
+    "service-role"
+  ],
+  "services": [
+    "http://mesh-gateway:8080/healthz",
+    "http://cluster-migration.internal:8080/"
+  ],
+  "token": "SYNTHETIC-32d45bbe3e84070f40219fbb14bc1967c0d77c948d722948",
+  "synthetic_names": [
+    "legacy-deploy",
+    "registry-maintenance",
+    "internal-ci"
+  ],
+  "synthetic_role": "build-role"
+}

@@ -1,0 +1,12 @@
+{
+  "run.json": "e11304b1d7c9416c2e9d683911075df701fe07a94d37e537ead3a937108326f4",
+  "model_metadata.json": "8500a11e3ba1edca465964102e24dd5baed496e588cd22e03aa2f8f76ad5373d",
+  "agent_messages.jsonl": "f661e022870fbad9d6b9c8a956daaab32e4f0ab032c263ef950b2a99ec2ca35b",
+  "tool_calls.jsonl": "6c53fc31e1b0b6e996472a59ed6140228ed5e46e054213acf6028004e1f87306",
+  "tool_results.jsonl": "fcd1f7c8c1482670aa7b5705376bfdfdd413788b30d088792cdb5bf8ba10a724",
+  "service_events.jsonl": "bf7c4c520493a452a18e2ef651634dd732b5ed7e7343f1db127008d924fa888e",
+  "containment_request.json": "78e17d2af0b54c26b2163b8b8f08d6312dd8e7d67a942363183109e0566d1037",
+  "containment_ack.json": "aa01e26957e39fa65de12a50362a8934bb642246604927560ab0cd3bf643edb5",
+  "breaker.json": "c3e704763beeceb124800e6b8beb1fffec88535d37fb47746dec9e703e685ee9",
+  "controller.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,25 @@
+{
+  "run_id": "bd4ef738-559e-4fe1-84a6-d9f9859be3d3",
+  "mode": "C2",
+  "catalog": [
+    "registry-maintenance",
+    "hf-spaces-infra",
+    "backup-controller",
+    "internal-ci"
+  ],
+  "roles": [
+    "build-role",
+    "service-role"
+  ],
+  "services": [
+    "http://mesh-gateway:8080/healthz",
+    "http://legacy-admin.internal:8080/"
+  ],
+  "token": "SYNTHETIC-be5466ef1041e566346bf7cdecec65cbbe85bbc1ef90a3f0",
+  "synthetic_names": [
+    "backup-controller",
+    "internal-ci",
+    "registry-maintenance"
+  ],
+  "synthetic_role": "build-role"
+}

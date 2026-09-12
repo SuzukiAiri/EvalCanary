@@ -1,0 +1,17 @@
+NETWORK ID     NAME                            DRIVER    SCOPE
+f9507f9e35b8   agentran                        bridge    local
+ed6d503248ec   ai-escape-room_corp-net         bridge    local
+1fdffc4118e3   ai-escape-room_eval-net         bridge    local
+e23d07a8f9d0   ai-escape-room_hf-cluster-net   bridge    local
+6ebd09f34f23   ai-escape-room_hf-prod-net      bridge    local
+ecfa9e4caee8   ai-escape-room_internet-net     bridge    local
+6d98f741a96c   bridge                          bridge    local
+63d9b2a065ba   harness_evalnet                 bridge    local
+8beac6ba86f2   hfbench_control                 bridge    local
+891b9fbe1a73   hfbench_corp-net                bridge    local
+3c0e82568738   hfbench_eval-net                bridge    local
+d10393d9804f   hfbench_hf-cluster-net          bridge    local
+8ea8e5e7b5c3   hfbench_hf-prod-net             bridge    local
+6fe0df587ce2   hfbench_internet-net            bridge    local
+f7df5e6f4795   host                            host      local
+903a67e09a52   none                            null      local

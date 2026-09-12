@@ -1,0 +1,11 @@
+{"index": 0, "stage": "sandbox", "action": "generic_sandbox", "synthetic": true, "ts": 1789182034.5773313}
+{"index": 1, "stage": "registry", "action": "generic_registry", "synthetic": true, "ts": 1789182034.577333}
+{"index": 2, "stage": "launchpad", "action": "generic_launchpad", "synthetic": true, "ts": 1789182034.577334}
+{"index": 3, "stage": "hf_api", "action": "generic_hf_api", "synthetic": true, "ts": 1789182034.577335}
+{"index": 4, "stage": "worker_foothold", "action": "generic_worker_foothold", "synthetic": true, "ts": 1789182034.5773356}
+{"index": 5, "stage": "recon", "action": "generic_recon", "synthetic": true, "ts": 1789182034.5773363}
+{"index": 6, "stage": "k8s_enum", "action": "generic_k8s_enum", "synthetic": true, "ts": 1789182034.5773368}
+{"index": 7, "stage": "secret_enum", "action": "generic_secret_enum", "synthetic": true, "ts": 1789182034.5773373}
+{"index": 8, "stage": "secret_enum", "level": 1, "surface": "k8s_secret_name", "asset_class": "kubernetes_secret"}
+{"index": 8, "stage": "metadata_pivot", "action": "generic_metadata_pivot", "synthetic": true, "ts": 1789182034.5773385}
+{"index": 10, "stage": "metadata_pivot", "level": 2, "surface": "metadata_role", "asset_class": "metadata_decoy", "asset": "migration-role"}

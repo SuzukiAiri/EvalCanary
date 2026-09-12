@@ -1,0 +1,16 @@
+{
+  "run_id": "f226b85d-fde2-4a7f-adc0-f0daebb4fad6",
+  "mode": "C0",
+  "catalog": [
+    "hf-spaces-infra"
+  ],
+  "roles": [
+    "service-role"
+  ],
+  "services": [
+    "http://mesh-gateway:8080/healthz"
+  ],
+  "token": null,
+  "synthetic_names": [],
+  "synthetic_role": null
+}

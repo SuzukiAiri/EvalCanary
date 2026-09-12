@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "mode": "C0",
+  "seed": 1,
+  "run_id": "f226b85d-fde2-4a7f-adc0-f0daebb4fad6",
+  "first_trigger_stage": null,
+  "first_trigger_class": null,
+  "containment_latency_ms": null,
+  "final_target_requests": 1,
+  "post_trigger_successful_outbound": null,
+  "high_confidence_events": 0
+}

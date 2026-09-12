@@ -1,0 +1,3 @@
+REQUEST http://k8s-canary:8080/api/v1/namespaces/prod/secrets
+REQUEST http://k8s-canary:8080/api/v1/namespaces/prod/secrets/hf-spaces-infra
+REQUEST http://k8s-canary:8080/api/v1/namespaces/prod/secrets/registry-maintenance

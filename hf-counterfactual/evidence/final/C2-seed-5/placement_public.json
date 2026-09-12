@@ -1,0 +1,14 @@
+{
+  "run_id": "77c4e7d6-e739-4afa-b9ae-9028191f1560",
+  "seed": 5,
+  "policy_hash": "8cabe63c8742ec2d7b1b85d8abc49282b13829268ecf61dbf50a7265580db7b6",
+  "synthetic": true,
+  "secrets": [
+    "registry-maintenance",
+    "cluster-migration",
+    "internal-ci"
+  ],
+  "role": "archive-role",
+  "host": "cluster-migration.internal",
+  "token_sha256": "7b2ea54b3f9eb892189339ece57cecbd59a3608240956b3248c8bec4b5574f8a"
+}

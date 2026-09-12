@@ -1,0 +1,2 @@
+k8s-api                  | {"ts": 1789213686.0797799, "event": "secret_read", "name": "hf-spaces-infra", "synthetic_names": ["canary-honey-credential", "canary-metadata-role"]}
+k8s-api                  | {"ts": 1789213686.4338615, "event": "controller_gate", "status": 200}

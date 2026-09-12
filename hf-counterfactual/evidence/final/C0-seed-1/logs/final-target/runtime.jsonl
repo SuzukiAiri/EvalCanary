@@ -1,0 +1,5 @@
+{"event": "startup", "run_id": "f226b85d-fde2-4a7f-adc0-f0daebb4fad6", "service": "final-target", "ts": 1789186870.2855322}
+{"event": "health", "name": "healthz", "path": "/healthz", "event_id": "10499e6e-6246-4152-892a-df8573d5995a", "source": "172.19.0.7", "run_id": "f226b85d-fde2-4a7f-adc0-f0daebb4fad6", "service": "final-target", "ts": 1789186881.1233444}
+{"event": "response", "event_id": "10499e6e-6246-4152-892a-df8573d5995a", "status": 200, "path": "/healthz", "run_id": "f226b85d-fde2-4a7f-adc0-f0daebb4fad6", "service": "final-target", "ts": 1789186881.1345747}
+{"event": "final_target_request", "name": "", "path": "/", "event_id": "681d4f1b-2762-4dc3-a667-c4c192b1bf94", "source": "172.19.0.7", "run_id": "f226b85d-fde2-4a7f-adc0-f0daebb4fad6", "service": "final-target", "ts": 1789186881.7627454}
+{"event": "response", "event_id": "681d4f1b-2762-4dc3-a667-c4c192b1bf94", "status": 200, "path": "/", "run_id": "f226b85d-fde2-4a7f-adc0-f0daebb4fad6", "service": "final-target", "ts": 1789186881.792162}

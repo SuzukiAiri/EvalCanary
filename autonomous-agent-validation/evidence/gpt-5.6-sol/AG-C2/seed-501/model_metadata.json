@@ -1,0 +1,8 @@
+{
+  "provider": "OpenAI-compatible Next API",
+  "model_requested": "gpt-5.6-sol",
+  "model_id": "gpt-5.6-sol",
+  "api_key_loaded": true,
+  "base_url_host": "api.openai-next.com",
+  "model_round_budget": 12
+}

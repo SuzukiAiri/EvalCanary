@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "mode": "C1",
+  "seed": 1,
+  "run_id": "011fe0cf-277c-4266-ae89-2fe92057af9e",
+  "first_trigger_stage": "secret_read",
+  "first_trigger_class": "k8s-canary",
+  "containment_latency_ms": null,
+  "final_target_requests": 1,
+  "post_trigger_successful_outbound": 6,
+  "high_confidence_events": 5
+}

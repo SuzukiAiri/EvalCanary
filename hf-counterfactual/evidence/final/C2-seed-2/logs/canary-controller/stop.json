@@ -1,0 +1,1 @@
+{"run_id": "bd4ef738-559e-4fe1-84a6-d9f9859be3d3", "trigger_id": "95e62db6-8b06-4152-a2dd-6e48ca6e7053", "container": "hfbench-replay", "networks": ["hfbench_hf-cluster-net", "hfbench_control"], "started": 1789186770.6179106, "finished": 1789186770.8277647, "rc": 0, "stdout": "Flag --time has been deprecated, use --timeout instead\nhfbench-replay\n", "stderr": ""}

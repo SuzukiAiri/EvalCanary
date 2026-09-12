@@ -1,0 +1,8 @@
+{
+  "run_id": "7a56b6df-e9ac-4548-b8cf-0ec2a1a25856",
+  "source": "host_breaker_ipc",
+  "networks_after": [
+    "agentlab_eval-net"
+  ],
+  "disconnect_rc": 0
+}

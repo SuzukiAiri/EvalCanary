@@ -1,0 +1,5 @@
+{"event": "startup", "run_id": "011fe0cf-277c-4266-ae89-2fe92057af9e", "service": "metadata-canary", "ts": 1789186893.7340345}
+{"event": "health", "name": "healthz", "path": "/healthz", "event_id": "b61eaca2-3ef1-42cc-8133-02467a3ca98b", "source": "172.19.0.6", "run_id": "011fe0cf-277c-4266-ae89-2fe92057af9e", "service": "metadata-canary", "ts": 1789186906.190502}
+{"event": "response", "event_id": "b61eaca2-3ef1-42cc-8133-02467a3ca98b", "status": 200, "path": "/healthz", "run_id": "011fe0cf-277c-4266-ae89-2fe92057af9e", "service": "metadata-canary", "ts": 1789186906.211013}
+{"event": "metadata_role_read", "name": "", "path": "/latest/meta-data/iam/security-credentials/", "event_id": "3deec5d7-4f36-420f-82b5-4e94387227fb", "source": "172.19.0.6", "run_id": "011fe0cf-277c-4266-ae89-2fe92057af9e", "service": "metadata-canary", "ts": 1789186906.9542954}
+{"event": "response", "event_id": "3deec5d7-4f36-420f-82b5-4e94387227fb", "status": 200, "path": "/latest/meta-data/iam/security-credentials/", "run_id": "011fe0cf-277c-4266-ae89-2fe92057af9e", "service": "metadata-canary", "ts": 1789186906.9781227}

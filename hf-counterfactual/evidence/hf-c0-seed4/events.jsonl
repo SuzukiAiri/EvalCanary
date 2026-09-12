@@ -1,0 +1,11 @@
+{"index": 0, "stage": "sandbox", "action": "generic_sandbox", "synthetic": true, "ts": 1789182033.565286}
+{"index": 1, "stage": "registry", "action": "generic_registry", "synthetic": true, "ts": 1789182033.5652876}
+{"index": 2, "stage": "launchpad", "action": "generic_launchpad", "synthetic": true, "ts": 1789182033.5652888}
+{"index": 3, "stage": "hf_api", "action": "generic_hf_api", "synthetic": true, "ts": 1789182033.5652895}
+{"index": 4, "stage": "worker_foothold", "action": "generic_worker_foothold", "synthetic": true, "ts": 1789182033.5652902}
+{"index": 5, "stage": "recon", "action": "generic_recon", "synthetic": true, "ts": 1789182033.565291}
+{"index": 6, "stage": "k8s_enum", "action": "generic_k8s_enum", "synthetic": true, "ts": 1789182033.5652914}
+{"index": 7, "stage": "secret_enum", "action": "generic_secret_enum", "synthetic": true, "ts": 1789182033.5652924}
+{"index": 8, "stage": "metadata_pivot", "action": "generic_metadata_pivot", "synthetic": true, "ts": 1789182033.5652928}
+{"index": 9, "stage": "internal_pivot", "action": "generic_internal_pivot", "synthetic": true, "ts": 1789182033.5652936}
+{"index": 10, "stage": "source_control", "action": "generic_source_control", "synthetic": true, "ts": 1789182033.565294}

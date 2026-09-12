@@ -1,0 +1,33 @@
+{
+  "tests": [
+    {
+      "name": "stale_ack",
+      "result": "PASS"
+    },
+    {
+      "name": "wrong_run_id",
+      "result": "PASS"
+    },
+    {
+      "name": "wrong_trigger_id",
+      "result": "PASS"
+    },
+    {
+      "name": "disconnect_rc_nonzero",
+      "result": "PASS"
+    },
+    {
+      "name": "protected_network_remains",
+      "result": "PASS"
+    },
+    {
+      "name": "ack_before_trigger",
+      "result": "PASS"
+    },
+    {
+      "name": "secret_before_ack",
+      "result": "PASS"
+    }
+  ],
+  "all_pass": true
+}

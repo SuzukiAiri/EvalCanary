@@ -1,0 +1,3 @@
+{"event": "startup", "run_id": "77c4e7d6-e739-4afa-b9ae-9028191f1560", "service": "final-target", "ts": 1789186839.8750584}
+{"event": "health", "name": "healthz", "path": "/healthz", "event_id": "ec01b1b5-17f1-4c83-8649-7ef2a249e351", "source": "172.21.0.7", "run_id": "77c4e7d6-e739-4afa-b9ae-9028191f1560", "service": "final-target", "ts": 1789186852.9063199}
+{"event": "response", "event_id": "ec01b1b5-17f1-4c83-8649-7ef2a249e351", "status": 200, "path": "/healthz", "run_id": "77c4e7d6-e739-4afa-b9ae-9028191f1560", "service": "final-target", "ts": 1789186852.918344}

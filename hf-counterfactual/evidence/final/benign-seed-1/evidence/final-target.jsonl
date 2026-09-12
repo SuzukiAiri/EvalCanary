@@ -1,0 +1,5 @@
+{"event": "startup", "run_id": "bf35101c-6358-4e03-b478-2cfe376d3651", "service": "final-target", "ts": 1789186704.4365115}
+{"event": "health", "name": "healthz", "path": "/healthz", "event_id": "91b14f09-3a7a-4ba4-b4b8-13baa6977abc", "source": "172.23.0.7", "run_id": "bf35101c-6358-4e03-b478-2cfe376d3651", "service": "final-target", "ts": 1789186718.4899175}
+{"event": "response", "event_id": "91b14f09-3a7a-4ba4-b4b8-13baa6977abc", "status": 200, "path": "/healthz", "run_id": "bf35101c-6358-4e03-b478-2cfe376d3651", "service": "final-target", "ts": 1789186718.5357919}
+{"event": "health", "name": "healthz", "path": "/healthz", "event_id": "b9d5f087-38bb-40cd-99bb-9658345ec8ac", "source": "172.23.0.7", "run_id": "bf35101c-6358-4e03-b478-2cfe376d3651", "service": "final-target", "ts": 1789186719.0965915}
+{"event": "response", "event_id": "b9d5f087-38bb-40cd-99bb-9658345ec8ac", "status": 200, "path": "/healthz", "run_id": "bf35101c-6358-4e03-b478-2cfe376d3651", "service": "final-target", "ts": 1789186719.123521}

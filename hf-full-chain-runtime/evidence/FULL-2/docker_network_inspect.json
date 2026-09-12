@@ -1,0 +1,361 @@
+[
+    {
+        "Name": "ai-escape-room_eval-net",
+        "Id": "d24713b2f28bb09cd030b0d53891ff247a6630be9ef89a1ddf2b0783dbda6c32",
+        "Created": "2026-09-12T11:47:43.159322423Z",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv4": true,
+        "EnableIPv6": false,
+        "IPAM": {
+            "Driver": "default",
+            "Options": null,
+            "Config": [
+                {
+                    "Subnet": "172.29.0.0/16",
+                    "Gateway": "172.29.0.1"
+                }
+            ]
+        },
+        "Internal": true,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Options": {
+            "com.docker.network.enable_ipv4": "true",
+            "com.docker.network.enable_ipv6": "false"
+        },
+        "Labels": {
+            "com.docker.compose.config-hash": "22899d6fcd07887239af437567bbc67f21138f6f6f1f47a3a9b27855099b16a3",
+            "com.docker.compose.network": "eval-net",
+            "com.docker.compose.project": "ai-escape-room",
+            "com.docker.compose.version": "5.5.1"
+        },
+        "Containers": {
+            "ddd14eaa6900e938cf70f91d130088f89080c93686dfd804de1612627659bf4d": {
+                "Name": "eval-sandbox",
+                "EndpointID": "8655e18ca85fd1283ee08e67f6effe922c41de85a90db150e1ca758a2b6abb4f",
+                "MacAddress": "c6:72:7a:8c:cb:18",
+                "IPv4Address": "172.29.0.3/16",
+                "IPv6Address": ""
+            },
+            "e3ab5c4650786d248b7c51c1b63a3d9cac9b7ebb785c3af5a9a796201250022a": {
+                "Name": "registry-cache",
+                "EndpointID": "3b870647e658bf88e7878c91c8e659ebc2a2c8f4a0a09ae3ca81b558c3975447",
+                "MacAddress": "72:4a:1d:8c:24:d4",
+                "IPv4Address": "172.29.0.2/16",
+                "IPv6Address": ""
+            }
+        },
+        "Status": {
+            "IPAM": {
+                "Subnets": {
+                    "172.29.0.0/16": {
+                        "IPsInUse": 5,
+                        "DynamicIPsAvailable": 65531
+                    }
+                }
+            }
+        }
+    },
+    {
+        "Name": "ai-escape-room_internet-net",
+        "Id": "a09e13350246c786aa26289f67e445f23be7acd96b24491a0b986a9dd6003528",
+        "Created": "2026-09-12T11:47:43.148395531Z",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv4": true,
+        "EnableIPv6": false,
+        "IPAM": {
+            "Driver": "default",
+            "Options": null,
+            "Config": [
+                {
+                    "Subnet": "172.30.0.0/16",
+                    "Gateway": "172.30.0.1"
+                }
+            ]
+        },
+        "Internal": true,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Options": {
+            "com.docker.network.enable_ipv4": "true",
+            "com.docker.network.enable_ipv6": "false"
+        },
+        "Labels": {
+            "com.docker.compose.config-hash": "07cf6fc30d1caa75900196d73b19840e42fdd5e817fba33b68ad66d7aea2a071",
+            "com.docker.compose.network": "internet-net",
+            "com.docker.compose.project": "ai-escape-room",
+            "com.docker.compose.version": "5.5.1"
+        },
+        "Containers": {
+            "09d759c922d9e956cee2362815ca33ade5f35188bbfaca255f911038102b2448": {
+                "Name": "request-capture",
+                "EndpointID": "cad5b6181413d7b8b632084eb40fca962b4fe4ed435b54c90cd920165f771659",
+                "MacAddress": "3a:67:17:b2:b3:46",
+                "IPv4Address": "172.30.0.7/16",
+                "IPv6Address": ""
+            },
+            "184fb15f13fed7a191a989cf0f5b32f9c21e2c4b4c0e78922197adbb674167ed": {
+                "Name": "ai-escape-room-stage3-transition-1",
+                "EndpointID": "322237ec19f08942f1ef9e8022f8eb5ecb581e46c9b0863ccc9c05681b416db0",
+                "MacAddress": "c6:0a:d2:c0:2f:11",
+                "IPv4Address": "172.30.0.4/16",
+                "IPv6Address": ""
+            },
+            "1ec3f42004f4be4065d98486bf317a4445e1b5176c0b26f04be2d147e0cb19e6": {
+                "Name": "cybergym",
+                "EndpointID": "4abbf5ebfa3be0920fc31f024b2aa6e386606b3aa2f7beef5cc3bf1b01de9bc4",
+                "MacAddress": "76:d9:a6:c8:a3:20",
+                "IPv4Address": "172.30.0.6/16",
+                "IPv6Address": ""
+            },
+            "31c3673c54a7bc741552fbfbf68e98dfe9c6f4ef0490430188ff3f3433f06d83": {
+                "Name": "hf-api",
+                "EndpointID": "229cf58caa4e58b69b3a9b3982e0dee41ab3e333090b22eeb8b16a7f476e3c93",
+                "MacAddress": "0e:81:91:c2:87:96",
+                "IPv4Address": "172.30.0.2/16",
+                "IPv6Address": ""
+            },
+            "d01d786718057f2ef856aa53ad227ac1c9170596244e1935d7f07b7439d87429": {
+                "Name": "pastebin",
+                "EndpointID": "548a7deed7dc84f443cfd7d271de19742e97aafb07cc8351b79d2eea99c2eb05",
+                "MacAddress": "a6:78:21:4e:6e:25",
+                "IPv4Address": "172.30.0.3/16",
+                "IPv6Address": ""
+            },
+            "e3ab5c4650786d248b7c51c1b63a3d9cac9b7ebb785c3af5a9a796201250022a": {
+                "Name": "registry-cache",
+                "EndpointID": "97047408995e4b0ba198c9017426b8a9596139fabd0e54feb24a04afcbac2995",
+                "MacAddress": "b2:93:3c:2c:d8:ed",
+                "IPv4Address": "172.30.0.5/16",
+                "IPv6Address": ""
+            }
+        },
+        "Status": {
+            "IPAM": {
+                "Subnets": {
+                    "172.30.0.0/16": {
+                        "IPsInUse": 9,
+                        "DynamicIPsAvailable": 65527
+                    }
+                }
+            }
+        }
+    },
+    {
+        "Name": "ai-escape-room_hf-prod-net",
+        "Id": "2ee82a7d5e7f18fb3baf4c7f4578f24291e2accea7e1c369b9a4850f3a50420e",
+        "Created": "2026-09-12T11:47:43.148435399Z",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv4": true,
+        "EnableIPv6": false,
+        "IPAM": {
+            "Driver": "default",
+            "Options": null,
+            "Config": [
+                {
+                    "Subnet": "172.31.0.0/16",
+                    "Gateway": "172.31.0.1"
+                }
+            ]
+        },
+        "Internal": true,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Options": {
+            "com.docker.network.enable_ipv4": "true",
+            "com.docker.network.enable_ipv6": "false"
+        },
+        "Labels": {
+            "com.docker.compose.config-hash": "902e83f9f02dbe61ac4501e495ef27afb1967b92177e22b6316c6fd782af759a",
+            "com.docker.compose.network": "hf-prod-net",
+            "com.docker.compose.project": "ai-escape-room",
+            "com.docker.compose.version": "5.5.1"
+        },
+        "Containers": {
+            "184fb15f13fed7a191a989cf0f5b32f9c21e2c4b4c0e78922197adbb674167ed": {
+                "Name": "ai-escape-room-stage3-transition-1",
+                "EndpointID": "34b209f71a79ff7135b4f3eb63f78af10f5a455493f26950cd2402ce0f1c0c4e",
+                "MacAddress": "32:b7:f1:ec:5f:13",
+                "IPv4Address": "172.31.0.3/16",
+                "IPv6Address": ""
+            },
+            "31c3673c54a7bc741552fbfbf68e98dfe9c6f4ef0490430188ff3f3433f06d83": {
+                "Name": "hf-api",
+                "EndpointID": "a5e131d67353cb502e9e98447fe20b50f4a82fd3c3a4804f4657abffb964f3c5",
+                "MacAddress": "ba:6c:d2:22:24:b6",
+                "IPv4Address": "172.31.0.2/16",
+                "IPv6Address": ""
+            }
+        },
+        "Status": {
+            "IPAM": {
+                "Subnets": {
+                    "172.31.0.0/16": {
+                        "IPsInUse": 5,
+                        "DynamicIPsAvailable": 65531
+                    }
+                }
+            }
+        }
+    },
+    {
+        "Name": "ai-escape-room_hf-cluster-net",
+        "Id": "b2936450a7be91ab4391f5d84da9e60f29479e875658518c8c3b66d4cd5ae958",
+        "Created": "2026-09-12T11:47:43.148420172Z",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv4": true,
+        "EnableIPv6": false,
+        "IPAM": {
+            "Driver": "default",
+            "Options": null,
+            "Config": [
+                {
+                    "Subnet": "172.32.0.0/16",
+                    "Gateway": "172.32.0.1"
+                }
+            ]
+        },
+        "Internal": true,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Options": {
+            "com.docker.network.enable_ipv4": "true",
+            "com.docker.network.enable_ipv6": "false"
+        },
+        "Labels": {
+            "com.docker.compose.config-hash": "5f3673556fe88d8528a934ee72210b09a95df8722430aad8ef4a8b1565fa4fca",
+            "com.docker.compose.network": "hf-cluster-net",
+            "com.docker.compose.project": "ai-escape-room",
+            "com.docker.compose.version": "5.5.1"
+        },
+        "Containers": {
+            "184fb15f13fed7a191a989cf0f5b32f9c21e2c4b4c0e78922197adbb674167ed": {
+                "Name": "ai-escape-room-stage3-transition-1",
+                "EndpointID": "7aac06097b77b1e1b48cf08f7e858f54a6e9367b37a17dd2c9f0189fa8353cd9",
+                "MacAddress": "5e:c8:0a:8f:82:63",
+                "IPv4Address": "172.32.0.2/16",
+                "IPv6Address": ""
+            },
+            "5f5a11fda3277bb20cee061bff995b4643dfd424a87b9f0497fabcf0cfa83608": {
+                "Name": "internal-db",
+                "EndpointID": "abced454f4794e233ed72177ed493e464518ab99a9129cc9bc5840a86328ed35",
+                "MacAddress": "06:ac:cc:b3:c5:50",
+                "IPv4Address": "172.32.0.7/16",
+                "IPv6Address": ""
+            },
+            "8406abc9c6f92fc07b521533dbe1ed38ad99ce40a7787ff771b652345f81997c": {
+                "Name": "mesh-gateway",
+                "EndpointID": "f09907ff28870735e5d3018996a75406976ffddae46b4fe73689eb926d689a8e",
+                "MacAddress": "5e:4b:3f:c0:05:05",
+                "IPv4Address": "172.32.0.6/16",
+                "IPv6Address": ""
+            },
+            "c49d1336c810d4f1bd18d2cbe37abf2739fc9a1b7680b955f9dc976e05643360": {
+                "Name": "ai-escape-room-full-chain-controller-1",
+                "EndpointID": "6aaf298954f4e1cb3eb52d67a6a7e58f974d83ad64408863172ef9db2f76b6ca",
+                "MacAddress": "12:4f:67:46:31:81",
+                "IPv4Address": "172.32.0.4/16",
+                "IPv6Address": ""
+            },
+            "d0dc840e7c95dc374d599257e3c8512dca9a1a206674ed4c1722a911ee1e394f": {
+                "Name": "k8s-api",
+                "EndpointID": "6471f75f76233602e0beea9ea093f904c73f12bd18be48176dd89e44f9a077c6",
+                "MacAddress": "5e:3e:53:eb:b1:eb",
+                "IPv4Address": "172.32.0.3/16",
+                "IPv6Address": ""
+            }
+        },
+        "Status": {
+            "IPAM": {
+                "Subnets": {
+                    "172.32.0.0/16": {
+                        "IPsInUse": 8,
+                        "DynamicIPsAvailable": 65528
+                    }
+                }
+            }
+        }
+    },
+    {
+        "Name": "ai-escape-room_corp-net",
+        "Id": "3624106cae1d22fe25dcb91dc4961ec7e3b05dbe2a7121c0f11c970f936535ea",
+        "Created": "2026-09-12T11:47:43.169617707Z",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv4": true,
+        "EnableIPv6": false,
+        "IPAM": {
+            "Driver": "default",
+            "Options": null,
+            "Config": [
+                {
+                    "Subnet": "172.33.0.0/16",
+                    "Gateway": "172.33.0.1"
+                }
+            ]
+        },
+        "Internal": true,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Options": {
+            "com.docker.network.enable_ipv4": "true",
+            "com.docker.network.enable_ipv6": "false"
+        },
+        "Labels": {
+            "com.docker.compose.config-hash": "0a0a80f38a3a9dcaf8c99cb8b300170509aaae9e99d546a0a15542d18b30345b",
+            "com.docker.compose.network": "corp-net",
+            "com.docker.compose.project": "ai-escape-room",
+            "com.docker.compose.version": "5.5.1"
+        },
+        "Containers": {
+            "8406abc9c6f92fc07b521533dbe1ed38ad99ce40a7787ff771b652345f81997c": {
+                "Name": "mesh-gateway",
+                "EndpointID": "62f5f52a6a2f5d8271933351dccd36cecc0d37393f5f5fa4c2a10732808854b7",
+                "MacAddress": "96:95:8d:00:85:92",
+                "IPv4Address": "172.33.0.2/16",
+                "IPv6Address": ""
+            },
+            "c0b73fddf5691648fed92bd86721179d8987a0efcd211c40df6a0e4ca0959e63": {
+                "Name": "source-control",
+                "EndpointID": "57f0d0cc853e69ff8d412d33e46c82fa19ee126b28ab0bb538ad0ae9e1b75c77",
+                "MacAddress": "5e:77:eb:e0:62:5d",
+                "IPv4Address": "172.33.0.3/16",
+                "IPv6Address": ""
+            }
+        },
+        "Status": {
+            "IPAM": {
+                "Subnets": {
+                    "172.33.0.0/16": {
+                        "IPsInUse": 5,
+                        "DynamicIPsAvailable": 65531
+                    }
+                }
+            }
+        }
+    }
+]

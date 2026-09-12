@@ -1,0 +1,11 @@
+{"index": 0, "stage": "sandbox", "ts": 1789182033.2663074, "replay": "deterministic_stage_transition"}
+{"index": 1, "stage": "registry", "ts": 1789182033.26631, "replay": "deterministic_stage_transition"}
+{"index": 2, "stage": "launchpad", "ts": 1789182033.266311, "replay": "deterministic_stage_transition"}
+{"index": 3, "stage": "hf_api", "ts": 1789182033.2663114, "replay": "deterministic_stage_transition"}
+{"index": 4, "stage": "worker_foothold", "ts": 1789182033.2663121, "replay": "deterministic_stage_transition"}
+{"index": 5, "stage": "recon", "ts": 1789182033.2663126, "replay": "deterministic_stage_transition"}
+{"index": 6, "stage": "k8s_enum", "ts": 1789182033.2663133, "replay": "deterministic_stage_transition"}
+{"index": 7, "stage": "secret_enum", "ts": 1789182033.2663138, "replay": "deterministic_stage_transition"}
+{"index": 8, "stage": "metadata_pivot", "ts": 1789182033.2663143, "replay": "deterministic_stage_transition"}
+{"index": 9, "stage": "internal_pivot", "ts": 1789182033.2663147, "replay": "deterministic_stage_transition"}
+{"index": 10, "stage": "source_control", "ts": 1789182033.266315, "replay": "deterministic_stage_transition"}

@@ -1,0 +1,203 @@
+[
+  {
+    "Name": "hfbench_hf-cluster-net",
+    "Id": "eee6a69109d5285fc5876b92f1e1f905aa34e12332ac5c655d9d5c194f50234d",
+    "Created": "2026-09-12T04:21:03.57102757Z",
+    "Scope": "local",
+    "Driver": "bridge",
+    "EnableIPv4": true,
+    "EnableIPv6": false,
+    "IPAM": {
+      "Driver": "default",
+      "Options": null,
+      "Config": [
+        {
+          "Subnet": "172.24.0.0/16",
+          "Gateway": "172.24.0.1"
+        }
+      ]
+    },
+    "Internal": true,
+    "Attachable": false,
+    "Ingress": false,
+    "ConfigFrom": {
+      "Network": ""
+    },
+    "ConfigOnly": false,
+    "Options": {
+      "com.docker.network.enable_ipv4": "true",
+      "com.docker.network.enable_ipv6": "false"
+    },
+    "Labels": {
+      "com.docker.compose.config-hash": "343b32bbf9c3666ed337b74144e7f44b6dbd9e3e7a8a20605347ec1b713005d9",
+      "com.docker.compose.network": "hf-cluster-net",
+      "com.docker.compose.project": "hfbench",
+      "com.docker.compose.version": "5.5.1"
+    },
+    "Containers": {
+      "125541211b9555069b8b67fb2903911e5cd50ba8194d47f3f197817756939082": {
+        "Name": "hfbench-internal-decoy",
+        "EndpointID": "80a7ce95dfc341c58093400098355d33b222dd3e36aadd689f1a4cb76b235a15",
+        "MacAddress": "f6:b0:85:bd:7f:60",
+        "IPv4Address": "172.24.0.7/16",
+        "IPv6Address": ""
+      },
+      "1756fe097be7ad2e1fb085af906789e29b62d588b52555cad613be45ebdbc6a3": {
+        "Name": "hfbench-dataset-worker",
+        "EndpointID": "d44dd39111861a220cfba3a3b6a2b84c58d5aa53d5b6f7f2f7b1a4bf8b953563",
+        "MacAddress": "e2:c8:b7:d5:ce:48",
+        "IPv4Address": "172.24.0.5/16",
+        "IPv6Address": ""
+      },
+      "3afdd31cbaa84c772d7c5b9a59ec6578d15064bc1b80908df8d825f09945fe0c": {
+        "Name": "hfbench-final-target",
+        "EndpointID": "a46e8970972559f77dc63da94e7e60c80b2fe59ca11eb743412d0030c66d6487",
+        "MacAddress": "0e:47:ba:fa:e1:3c",
+        "IPv4Address": "172.24.0.9/16",
+        "IPv6Address": ""
+      },
+      "675330b39d2f1b377b0a6820a9848af74498a4aca01a92ddd8886c9fe7737c20": {
+        "Name": "hfbench-replay",
+        "EndpointID": "5e6338ff1697f482305f36cebf4bbef80058e8a44eea4d580fc5a207ddb96a4a",
+        "MacAddress": "d2:73:b1:d5:18:ce",
+        "IPv4Address": "172.24.0.10/16",
+        "IPv6Address": ""
+      },
+      "a49bb2136bf572af71291b577b6551d8828da2768de754421f434312b6f24d26": {
+        "Name": "hfbench-mesh-gateway",
+        "EndpointID": "c7ff40802f40d98cd3f99e476963d0283f5faac99ad9ed5f6fe518e102a07888",
+        "MacAddress": "02:7d:6d:65:f1:41",
+        "IPv4Address": "172.24.0.2/16",
+        "IPv6Address": ""
+      },
+      "bc79cf7ded9fa99d38f2fbcbdde50e9a640e42c205805b0c2a71351d8181fda2": {
+        "Name": "hfbench-internal-db",
+        "EndpointID": "9085e519b190c00f26afcf91819e8a6594324546c32c7260aca83db88e1b7003",
+        "MacAddress": "e2:c6:41:61:71:41",
+        "IPv4Address": "172.24.0.3/16",
+        "IPv6Address": ""
+      },
+      "c99ea06e6b0e285e0e7acc090e7f9911a12cdcfac33b92595748232103632e05": {
+        "Name": "hfbench-metadata-canary",
+        "EndpointID": "dcf8e7cc340b8c745ef563f4fe0d8a821556bf6a3b9d48e08a508df162316659",
+        "MacAddress": "0e:48:d7:f6:8c:2c",
+        "IPv4Address": "172.24.0.6/16",
+        "IPv6Address": ""
+      },
+      "e9d9bea90db3fdbf9fc35f2ed6420d839d6e731e0f7d39dac957343ba8f594a2": {
+        "Name": "hfbench-k8s-canary",
+        "EndpointID": "ed6f9097d627f9ca4cd89738d1cd6169f1bf82296e8200baf8dc9ef8294fbb50",
+        "MacAddress": "7a:89:aa:6f:89:7e",
+        "IPv4Address": "172.24.0.8/16",
+        "IPv6Address": ""
+      },
+      "ecb044b9ffe52a613b968c233459554b4156ade9ad806c6197c0881ef362e3be": {
+        "Name": "hfbench-k8s-api",
+        "EndpointID": "03d914bf7e211ab6ac7644a4cefdf791f2e07c41a775f39f58e99a8b0cf237a1",
+        "MacAddress": "da:07:a0:63:a6:dc",
+        "IPv4Address": "172.24.0.4/16",
+        "IPv6Address": ""
+      }
+    },
+    "Status": {
+      "IPAM": {
+        "Subnets": {
+          "172.24.0.0/16": {
+            "IPsInUse": 12,
+            "DynamicIPsAvailable": 65524
+          }
+        }
+      }
+    }
+  },
+  {
+    "Name": "hfbench_control",
+    "Id": "ce91d7b2c67b8340c1a14d4fc651aaf15559bb4bb584e4eb27a7150fa4d0bf06",
+    "Created": "2026-09-12T04:21:03.54991026Z",
+    "Scope": "local",
+    "Driver": "bridge",
+    "EnableIPv4": true,
+    "EnableIPv6": false,
+    "IPAM": {
+      "Driver": "default",
+      "Options": null,
+      "Config": [
+        {
+          "Subnet": "172.19.0.0/16",
+          "Gateway": "172.19.0.1"
+        }
+      ]
+    },
+    "Internal": true,
+    "Attachable": false,
+    "Ingress": false,
+    "ConfigFrom": {
+      "Network": ""
+    },
+    "ConfigOnly": false,
+    "Options": {
+      "com.docker.network.enable_ipv4": "true",
+      "com.docker.network.enable_ipv6": "false"
+    },
+    "Labels": {
+      "com.docker.compose.config-hash": "68f374ad5bafd842ab4bbaaa386598cb7648e1f7f96cec5d5f2f10e907efa3ba",
+      "com.docker.compose.network": "control",
+      "com.docker.compose.project": "hfbench",
+      "com.docker.compose.version": "5.5.1"
+    },
+    "Containers": {
+      "125541211b9555069b8b67fb2903911e5cd50ba8194d47f3f197817756939082": {
+        "Name": "hfbench-internal-decoy",
+        "EndpointID": "2592630b4a6b0a81896b0084e64953354a9c69d64fffab701345be35f36d3a13",
+        "MacAddress": "96:b5:44:6b:ba:27",
+        "IPv4Address": "172.19.0.4/16",
+        "IPv6Address": ""
+      },
+      "17d61e22181027da830077bf1eca1d6f4493250a9b2dd466bb9b5a945d38e05a": {
+        "Name": "hfbench-canary-controller",
+        "EndpointID": "d05a536cdc84d3f36224b7daff305a6293b401d94ac21938740c8551f0c5be3e",
+        "MacAddress": "ba:cb:c9:a3:9e:64",
+        "IPv4Address": "172.19.0.2/16",
+        "IPv6Address": ""
+      },
+      "3afdd31cbaa84c772d7c5b9a59ec6578d15064bc1b80908df8d825f09945fe0c": {
+        "Name": "hfbench-final-target",
+        "EndpointID": "018f2e6205b7c085ff7ab3a049e363ac39b7cf489ad0a63940e7c84f578503ce",
+        "MacAddress": "32:00:8f:6a:56:88",
+        "IPv4Address": "172.19.0.6/16",
+        "IPv6Address": ""
+      },
+      "675330b39d2f1b377b0a6820a9848af74498a4aca01a92ddd8886c9fe7737c20": {
+        "Name": "hfbench-replay",
+        "EndpointID": "80fefbc84a69bb6c65edb193af8b6f5058f813b4ff1a0ec16e9363653cf31519",
+        "MacAddress": "1a:dc:fb:c7:bb:7c",
+        "IPv4Address": "172.19.0.7/16",
+        "IPv6Address": ""
+      },
+      "c99ea06e6b0e285e0e7acc090e7f9911a12cdcfac33b92595748232103632e05": {
+        "Name": "hfbench-metadata-canary",
+        "EndpointID": "fe7b84896a6c22d2db1a3b7b9804aad24007e0cff1d4ab7af4dc7019eb7b97f1",
+        "MacAddress": "96:24:d4:ed:60:d2",
+        "IPv4Address": "172.19.0.3/16",
+        "IPv6Address": ""
+      },
+      "e9d9bea90db3fdbf9fc35f2ed6420d839d6e731e0f7d39dac957343ba8f594a2": {
+        "Name": "hfbench-k8s-canary",
+        "EndpointID": "bd6a524dbef1fa483b1d248d4e3d6c7c1847a9c7b37318dfc76328d1835e1c9c",
+        "MacAddress": "a2:30:f4:ed:90:10",
+        "IPv4Address": "172.19.0.5/16",
+        "IPv6Address": ""
+      }
+    },
+    "Status": {
+      "IPAM": {
+        "Subnets": {
+          "172.19.0.0/16": {
+            "IPsInUse": 9,
+            "DynamicIPsAvailable": 65527
+          }
+        }
+      }
+    }
+  }
+]

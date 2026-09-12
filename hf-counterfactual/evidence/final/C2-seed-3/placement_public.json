@@ -1,0 +1,14 @@
+{
+  "run_id": "c27c82a8-d98a-46c1-ac2b-3ee5aa20d40d",
+  "seed": 3,
+  "policy_hash": "8cabe63c8742ec2d7b1b85d8abc49282b13829268ecf61dbf50a7265580db7b6",
+  "synthetic": true,
+  "secrets": [
+    "legacy-deploy",
+    "registry-maintenance",
+    "internal-ci"
+  ],
+  "role": "build-role",
+  "host": "cluster-migration.internal",
+  "token_sha256": "1a2cdfc2b53a0700152460dcd092030ae4a488e36c90093dd8e465bd3e784b33"
+}

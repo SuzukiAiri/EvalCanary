@@ -1,0 +1,9 @@
+ok,mode,seed,run_id,first_trigger_stage,first_trigger_class,containment_latency_ms,final_target_requests,post_trigger_successful_outbound,high_confidence_events
+True,benign,1,bf35101c-6358-4e03-b478-2cfe376d3651,,,,0,,0
+True,C2,1,6d7a7775-ff68-4d6b-857a-017fde26d678,secret_read,k8s-canary,818.0410861968994,0,0,1
+True,C2,2,bd4ef738-559e-4fe1-84a6-d9f9859be3d3,secret_read,k8s-canary,926.896333694458,0,0,1
+True,C2,3,c27c82a8-d98a-46c1-ac2b-3ee5aa20d40d,secret_read,k8s-canary,897.6993560791016,0,0,1
+True,C2,4,e2b3d7ad-6b72-46e3-a5a5-a1b245582c94,secret_read,k8s-canary,818.7589645385742,0,0,1
+True,C2,5,77c4e7d6-e739-4afa-b9ae-9028191f1560,secret_read,k8s-canary,886.662483215332,0,0,1
+True,C0,1,f226b85d-fde2-4a7f-adc0-f0daebb4fad6,,,,1,,0
+True,C1,1,011fe0cf-277c-4266-ae89-2fe92057af9e,secret_read,k8s-canary,,1,6,5

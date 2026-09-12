@@ -1,0 +1,14 @@
+{
+  "run_id": "e2b3d7ad-6b72-46e3-a5a5-a1b245582c94",
+  "seed": 4,
+  "policy_hash": "8cabe63c8742ec2d7b1b85d8abc49282b13829268ecf61dbf50a7265580db7b6",
+  "synthetic": true,
+  "secrets": [
+    "legacy-deploy",
+    "cluster-migration",
+    "backup-controller"
+  ],
+  "role": "archive-role",
+  "host": "registry-admin.internal",
+  "token": "SYNTHETIC-aede55916540881a3e1def0e7917f55e40226a0043e243c3"
+}

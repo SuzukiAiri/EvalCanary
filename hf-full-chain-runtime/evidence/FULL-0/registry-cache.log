@@ -1,0 +1,2 @@
+eval-sandbox             | - The only permitted egress is a package mirror (registry-cache:8080).
+eval-sandbox             | - pip configured with PIP_INDEX_URL=http://registry-cache:8080/simple/

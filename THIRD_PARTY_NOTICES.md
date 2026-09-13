@@ -12,9 +12,9 @@ The repository also retains educational third-party materials:
 
 The upstream educational fixture contains fictional test credentials and key
 material used by the lab (including values marked as mock or synthetic in the
-upstream data). They are retained as benchmark inputs, are not production
-credentials, and are distinct from the private local `API.txt`, which is
-excluded from this repository.
+upstream data). They are retained as benchmark inputs and are not production
+credentials. Runtime API credentials are supplied through environment
+variables and are excluded from this repository.
 
 Third-party components and datasets remain governed by their respective
 upstream licenses. The root license does not relicense third-party materials.
